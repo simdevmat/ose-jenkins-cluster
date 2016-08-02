@@ -34,10 +34,10 @@
 		    "kind": "ImageStream",
 		    "apiVersion": "v1",
 		    "metadata": {
-		        "name": "centos7"
+		        "name": "centos"
 		    },
 			"spec": {
-				"dockerImageRepository": "centos"
+				"dockerImageRepository": "docker.io/centos"
 			}
 		},
 		{
@@ -435,12 +435,12 @@
         {
             "name": "JENKINS_IMAGE_TAG",
             "description": "Base OpenShift Jenkins Image Tag",
-            "value": "ose-jenkins:1.609-15"
+            "value": "ose-jenkins:latest"
         },
         {
             "name": "GIT_URI",
             "description": "Git Repository",
-            "value": "https://github.com/sabre1041/ose-jenkins-cluster.git"
+            "value": "https://github.com/simdevmat/ose-jenkins-cluster.git"
         },
         {
             "name": "GIT_REF",
